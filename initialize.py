@@ -1,12 +1,9 @@
+__version__ = 0.0
+a = '''
 #!/user/bin/env python3
 
 # 2019 Rygel Dagenais
-# Run script for future games
-# TO PLAY A GAME:
-#   1. OPEN TERMINAL
-#   2. TYPE '/Desktop/play.py <name of folder of game you want to play>'
-#   3. ENJOY
-
+# The 'run' script for future games
 # NOTICE:
 # TO PLAY GAMES, YOU MUST DOWNLOAD PYTHON 3.6 OR NEWER FROM PYTHON.ORG and INSTALL IT
 # YOU MUST ALSO TAKE THE FILES OUT OF THE FOLDER AND ONTO THE DESKTOP
@@ -26,5 +23,7 @@ if __name__ == '__main__':
         left = lef[1:-1]
         eval('from ' + c +' import game as g')
         eval('g.run(' + left + ')')
-        
-            
+'''
+f = open('~/RygelGameLauncherScript','w')
+f.write(a)
+f.close()
