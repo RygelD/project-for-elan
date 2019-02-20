@@ -1,3 +1,3 @@
 ~land_colours
 # Plains texture
-*sq10
+*s10g
